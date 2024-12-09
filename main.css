@@ -31,3 +31,20 @@
     width: 1170px;
   }
 }
+body {
+  background-image: url(assets/images/bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+header {
+  padding: 25px 0;
+}
+header .container a {
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--black);
+}
