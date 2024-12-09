@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --black: black;
+  --white: white;
+  --palm-leaf: #779341;
+  --blue-berry: #4285f4;
+  --philippine-gray: #8d8d8d;
+  --silver-chalice: #adadad;
+  --gray: #808080;
+}
