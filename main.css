@@ -11,6 +11,7 @@
   --philippine-gray: #8d8d8d;
   --silver-chalice: #adadad;
   --gray: #808080;
+  --alice-blue: #e9f1ff;
 }
 .container {
   padding: 0 15px;
@@ -32,6 +33,7 @@
   }
 }
 body {
+  font-family: "Poppins", serif;
   background-image: url(assets/images/bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,8 +45,107 @@ header {
   padding: 25px 0;
 }
 header .container a {
-  font-family: "Poppins", serif;
   font-size: 20px;
   font-weight: 600;
   color: var(--black);
+}
+.login .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: calc(100vh - 80px);
+}
+.login form {
+  width: 539px;
+  padding: 30px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.801);
+}
+.welcome-message {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-message p {
+  font-size: 21px;
+}
+.welcome-message p span:first-child {
+  font-size: 21px;
+  font-weight: 600;
+  color: var(--palm-leaf);
+}
+.welcome-message p:last-child {
+  font-size: 13px;
+  color: var(--philippine-gray);
+}
+.welcome-message p a {
+  font-size: 13px;
+  color: var(--palm-leaf);
+}
+h1 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 82.5px;
+  color: var(--black);
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 42px 0 52px 0;
+}
+.icons .login-with-google {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 9px;
+  background-color: var(--alice-blue);
+}
+.icons .icon {
+  padding: 15px;
+  border-radius: 9px;
+  background-color: var(--white);
+}
+input,
+label {
+  display: block;
+}
+label {
+  margin-bottom: 13px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  margin-bottom: 38px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  border: 1px solid var(--blue-berry);
+  border-radius: 9px;
+}
+input[type="password"] {
+  margin: 0;
+}
+input[type="text"],
+input[type="password"]::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--gray);
+}
+form a {
+  display: block;
+  text-align: right;
+  padding-top: 12px;
+  font-size: 13px;
+  color: var(--blue-berry);
+}
+input[type="submit"] {
+  width: 236px;
+  margin: 44px 0 0 auto;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  color: var(--white);
+  background-color: var(--palm-leaf);
 }
