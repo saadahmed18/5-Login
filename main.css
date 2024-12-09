@@ -149,3 +149,14 @@ input[type="submit"] {
   color: var(--white);
   background-color: var(--palm-leaf);
 }
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 520px) {
+  .inputs .user-name,
+  .contact-number {
+    width: 100%;
+  }
+}

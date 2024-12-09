@@ -12,5 +12,39 @@
     />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html">Your Logo</a>
+      </div>
+    </header>
+    <main>
+      <section class="register">
+        <div class="container">
+          <form>
+            <div class="welcome-message">
+              <p>Welcome to <span>LOREM</span></p>
+              <p>No Account ?<br /><a href="register.html">Sign in</a></p>
+            </div>
+            <h1>Sign up</h1>
+            <label for="user-name-or-email">Enter your username or email address</label>
+            <input type="text" id="user-name-or-email" name="user-name-or-email" placeholder="Username or email address" required autofocus />
+            <div class="inputs">
+              <div class="user-name">
+                <label for="user-name">User name</label>
+                <input type="text" name="user-name" id="user-name" placeholder="User name" required />
+              </div>
+              <div class="contact-number">
+                <label for="contact-number">Contact Number</label>
+                <input type="text" name="contact-number" id="contact-number" placeholder="Contact Number" required />
+              </div>
+            </div>
+            <label for="password">Enter your Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" required />
+            <input type="submit" value="Sign in" />
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
